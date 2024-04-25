@@ -92,7 +92,7 @@ public class PP_Visitor implements Visitor {
 
      public Object visit(BooleanType node, Object data) {
           int indent = (int) data;
-          return "bool";
+          return "boolean";
      }
 
      public Object visit(IdentifierType node, Object data) {
